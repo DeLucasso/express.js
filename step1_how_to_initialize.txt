@@ -1,15 +1,8 @@
 To start a project in Node.js or Express, just in the Bash Terminal : 
 
-mkdir yourProjectFolder         // To make a new directory
-cd yourProjectFolder            // To enter your new directory
-touch yourProjectFile.js        // To create a new file
-init npm                        // To initialize NPN repositories ( https://www.npmjs.com/ )
-open -a Atom yourProjectFile.js // To open yourProjectFile.js OR >>
-atom .                          // To open Atom with the directory you are at.
-
-
-
-1 mkdir test-directory
-2 cd /path/to/test-directory
-3 npm install <your-module-name>
-https://docs.npmjs.com/creating-node-js-modules
+1 mkdir yourProjectFolder         // To make a new directory
+2 cd yourProjectFolder            // To enter your new directory
+3 touch yourProjectFile.js        // To create a new file
+4 init npm                        // To initialize NPN repositories ( https://www.npmjs.com/ )
+5 open -a Atom yourProjectFile.js // To open yourProjectFile.js OR >>
+6 atom .                          // To open Atom with the directory you are at.
