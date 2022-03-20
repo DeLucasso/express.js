@@ -1,0 +1,4 @@
+
+nodemon.io // monitors change in source and restarts server automatically
+
+npm install -g nodemon
