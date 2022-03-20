@@ -1,0 +1,7 @@
+To start a project in Node.js or Express, just in the Bash Terminal : 
+
+mkdir yourProjectFolder
+cd yourProjectFolder
+touch yourProjectFile.js
+init npm
+open yourProjectFile.js
