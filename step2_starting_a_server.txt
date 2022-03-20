@@ -1,0 +1,9 @@
+//This is a barebone of the server.js file ( myFile that you've created in bash )
+
+
+//jshint esversion:6                      // This is an info to LINT (atom error whisperer) that we are using ES6 and errors dissapears.
+
+const express = require("express");       // part 1 line 1 : Every time we have to have the "require("someModule"); (required)
+const app = express();                    // part 1 line 2 : a top-level function required to create an express (required)
+
+app.listen(3000);                         // we are starting server at port 3000
