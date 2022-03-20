@@ -6,3 +6,10 @@ touch yourProjectFile.js        // To create a new file
 init npm                        // To initialize NPN repositories ( https://www.npmjs.com/ )
 open -a Atom yourProjectFile.js // To open yourProjectFile.js OR >>
 atom .                          // To open Atom with the directory you are at.
+
+
+
+1 mkdir test-directory
+2 cd /path/to/test-directory
+3 npm install <your-module-name>
+https://docs.npmjs.com/creating-node-js-modules
