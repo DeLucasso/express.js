@@ -3,5 +3,6 @@ nodemon.io // monitors change in source and restarts server automatically
 npm install -g nodemon
 
 // to get a data to be able to tap data from res.send (from response) at our app ( to pass data )
+// We have to create a new const and require that module in our project, as usual.
 npm install body-parser
-
+const bodyParser = require('body-parser');
