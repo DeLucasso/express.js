@@ -6,3 +6,7 @@ npm install -g nodemon
 // We have to create a new const and require that module in our project, as usual.
 npm install body-parser
 const bodyParser = require('body-parser');
+// we have one of these options how to pass data to json, text or to urlencoded
+app.use(bodyParser.json());
+app.use(bodyParser.text);
+app.use(bodyParser.urlencoded({extended: true}));
