@@ -1,4 +1,4 @@
-// This is a default boilerplate for express server.
+// This is a default boilerplate for Node.js express server in app.js file
 // There must be also "npm init" + installed "npm install exprees body-parser request" in bash
 //jshint esversion:6
 const bodyParser = require("body-parser");
